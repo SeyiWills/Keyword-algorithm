@@ -1,5 +1,5 @@
-from requests_html import HTMLSession
-from rake_nltk import Rake
+from requests_html import HTMLSession #this library intends to make parsing HTML as simple as possible
+from rake_nltk import Rake #extraction algorithm which tries to determine jey phrases in a body of text 
 
 def extract_text():
     s = HTMLSession() # creates the html session
